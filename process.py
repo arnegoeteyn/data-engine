@@ -2,7 +2,8 @@ import os
 from dv_utils import  LogLevel, set_event, log
 import requests 
 
-DATA_ENGINE_URL="http://localhost:3700"
+# DATA_ENGINE_URL="http://localhost:3700"
+DATA_ENGINE_URL="http://data-engine"
 
 def event_processor(evt: dict):
   """
